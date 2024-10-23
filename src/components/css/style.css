@@ -1,0 +1,107 @@
+/* .box{
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.in-out{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+.inputData{
+    width: 100%;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.info{
+    font-size: 1.5rem;
+    background-color: rgb(59, 59, 59) ;
+}
+
+.box{
+    border-radius: 1.5rem;
+    margin:10rem auto;
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+    height: 80vh;
+    color: rgb(29, 38, 15);
+    /* background-color: red; */
+    background-image: url("../wall.jpg");
+    /* padding: 1rem; */
+}
+.inputField{
+    width: 50%;
+    margin: auto;
+    border-radius: 5rem;
+    padding: 1rem 1rem;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.err{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto;
+    color: wheat;
+}
+
+.currLoc{
+    margin-top: 1rem;
+    border-radius: 2rem;
+    width: 80%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: grey;
+    color: white;
+}
+
+.inputField{
+    margin-top: 0.5rem;
+    width: 80%;
+}
+
+/* .search_btn{
+    border-radius: 2rem;
+    width: 1%;
+} */
+.temperature{
+     font-size: 5rem;
+}
+.temp{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+.wc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.celsius{
+    font-size: 4rem;
+}
+.weather{
+    font-size: 1.5rem;
+}
+.weather-det{
+    color: white;
+}
+.location{
+    font-size: 3rem;
+    color: white;
+}
+.wd{
+    color: whitesmoke;
+}
+.icon-w{
+    font-size: 3rem;
+}
