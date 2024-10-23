@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# WeatherApp - Realtime Weather Monitoring Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WeatherApp is a realtime weather monitoring application that allows you to search for weather information of a particular location. It provides comprehensive and up-to-date weather data, covering every crucial detail related to the weather conditions.
 
-## Available Scripts
+## Tech Used
 
-In the project directory, you can run:
+The Weather application is built using the following technologies:
+-**Reactjs**: The framework used for frontend development.
+- **JavaScript**: The programming language used for frontend development.
+- **HTML**: The markup language used for structuring the web pages.
+- **CSS**: The stylesheet language used for styling the web pages.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Search: Easily search for the weather information of any location around the world.
+- Current Weather: Get the current weather conditions, including temperature, humidity, wind speed, and more, for the selected location.
+- Forecast: View the weather forecast for up to 3 days, including hourly breakdowns for each day.
+- Detailed Information: Access detailed information about weather conditions such as cloud cover, precipitation, UV index, and more.
+- User-friendly Interface: Enjoy a clean and intuitive interface for a seamless user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+Before running the WeatherApp application, ensure that you have Node.js and npm installed on your machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js: You can download and install Node.js from the official website: [Node.js](https://nodejs.org).
+- npm (Node Package Manager): npm is bundled with Node.js, so you should have it installed after installing Node.js.
 
-### `npm run build`
+## Installation and Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Open a command-line interface or terminal.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Verify that Node.js and npm are installed correctly by running the following commands:
+   ```sh
+   node --version
+   npm --version
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Select the desired configuration using the arrow keys and press Enter to proceed.
+   
+4. Install project dependencies by running:
+   ```sh
+    npm install
 
-### `npm run eject`
+## Running the Application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Start the application by running the following command:
+   ```sh
+   npm run
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Wait for the compilation to complete. You will see the local development server address, usually http://localhost:3000, displayed in the terminal. Proceed to view the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
